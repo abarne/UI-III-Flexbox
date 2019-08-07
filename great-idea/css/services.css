@@ -63,13 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-*{
-	/* border: 1px solid black !important; */
-}
-
-/*Nav bar styling*/
+/*End of reset code*/
 
 body{
 	width:80%;
@@ -88,76 +82,8 @@ body{
 	text-decoration: none;
 	color: rgb(70, 70, 70);
 }
-/*top section styling*/
-.top-section{
-	display:flex;
-	justify-content: flex-end;	
-	border-bottom: 1px solid black !important;
-	height: 500px;
-}
 
-.main-title{
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/* height:70%; */
-	width:70%;
-}
 
-.title, .title2, .title3{
-	font-size: 50px;
+ul{
+    list-style-type: disc;
 }
-
-.started-button{
-	border: 1px solid black !important;
-	text-align: center;
-	width:10%;
-	height: 30px;
-	margin-right:25%;
-}
-.title{
-	width:40%;
-}
-.title2{
-	width: 30%;
-}
-.title3{
-	width:40%;	
-}
-
-/*features and about styling*/
-
-.top-content{
-	display: flex;
-	margin-top: 50px;
-	justify-content: space-between;
-}
-
-.top-content div{
-	width: 47%;
-}
-
-.middle-img{
-	width:100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-/*services, product, vision styling*/
-
-.bottom-content{
-	display:flex;
-	height: 200px;
-	border-bottom: 1px solid black;
-	margin-bottom: 50px;
-}
-.bottome-content div{
-	width: 31%;
-}
-
-.copyright{
-	margin-bottom: 80px;
-	margin-left:50%;
-}
-
