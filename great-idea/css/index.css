@@ -110,9 +110,9 @@ body{
 }
 
 .started-button{
-	border: 1px solid black !important;
+	/* border: 1px solid black !important; */
 	text-align: center;
-	width:10%;
+	width:150px;
 	height: 60px;
 	margin-right:25%;
 }
